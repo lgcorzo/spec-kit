@@ -1,3 +1,5 @@
+Maintained fork of [github/spec-kit](https://github.com/github/spec-kit). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: MIT.
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/github/spec-kit/main/media/logo_large.webp" alt="Spec Kit Logo" width="200" height="200"/>
     <h1>🌱 Spec Kit</h1>
@@ -210,3 +212,10 @@ Use project-local overrides for one-off template changes.
 <a id="-license"></a>
 
 Spec Kit is [MIT licensed](./LICENSE).
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/spec-kit/commits) and [Pull Requests](https://github.com/lgcorzo/spec-kit/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
